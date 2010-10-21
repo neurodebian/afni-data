@@ -1,0 +1,19 @@
+Source: afni-data
+Section: science
+Priority: extra
+Maintainer: NeuroDebian Team <team@neuro.debian.net>
+Uploaders: Michael Hanke <michael.hanke@gmail.com>, Yaroslav Halchenko <debian@onerussian.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.1
+Homepage: http://afni.nimh.nih.gov
+
+
+Package: afni-atlases
+Architecture: all
+Depends: ${misc:Depends}
+Description: standard space brain atlases for AFNI
+ AFNI is an environment for processing and displaying functional MRI data.
+ It provides a complete analysis toolchain, including 3D cortical surface
+ models, and mapping of volumetric data (SUMA).
+ .
+ This package provide AFNI's standard space brain templates in HEAD/BRIK format.

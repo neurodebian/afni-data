@@ -1,0 +1,41 @@
+#!/usr/bin/make -f
+
+srcpkg = $(shell LC_ALL=C dpkg-parsechangelog | grep '^Source:' | cut -d ' ' -f 2,2)
+upstreamver = $(shell LC_ALL=C dpkg-parsechangelog | grep '^Version:' | cut -d ' ' -f 2,2 | cut -d '-' -f 1,1)
+upstreamtarball = linux_xorg7.tgz
+upstreamurl = http://afni.nimh.nih.gov/pub/dist/tgz/$(upstreamtarball)
+
+# one ring to rule them all ...
+%:
+	dh $@
+
+$(upstreamtarball):
+	[ -f ../$@ ] || curl -o ../$@ $(upstreamurl)
+
+maint-clean:
+	rm -rf data
+
+maint-update-md5sum:
+	md5sum data/* > debian/origdata.md5sum
+
+maint-check-md5sum:
+	# if the check fails it means upstream changed something in the
+	# data -- in that case visit upstream webpage, figure out date of
+	# change and use it as a new upstream version (simply update Debian
+	# changelog)
+	md5sum -c debian/origdata.md5sum
+
+maint-populate-srcpkg:
+	# extract the pieces we are interested in (data and license information)
+	tar --wildcards --strip 1 -xvzf ../$(srcpkg)_$(upstreamver).orig.tar.gz
+
+get-orig-source: $(upstreamtarball)
+	# put all data files into a subdir
+	mkdir -p data
+	# extract the pieces we are interested in (data and license information)
+	tar -C data --wildcards --strip 1 -xvzf ../$(upstreamtarball) '*.HEAD*' '*.BRIK*' '*README.copyright'
+	# check integrity
+	md5sum -c debian/origdata.md5sum
+	# orig tarball, turn directory into something nicer
+	tar --transform 's,^,$(srcpkg)-$(upstreamver)/,' \
+		-cvzf $(srcpkg)_$(upstreamver).orig.tar.gz data

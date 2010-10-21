@@ -1,0 +1,21 @@
+Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
+Name: afni-data
+Maintainer: Robert W Cox <rwcox@nih.gov>
+Source: http://afni.nimh.nih.gov/afni/download/afni/releases/latest
+
+
+Files: *
+Copyright: 1994-2000, Medical College of Wisconsin
+License: GPL-2
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-2'.
+
+
+Files: data/TT_atlas*
+Copyright: Copyright 2003-2010, Jack Lancaster and Peter Fox
+License: GPL-2
+
+
+Files: debian/*
+Copyright: 2007-2010, Michael Hanke <michael.hanke@gmail.com>
+License: GPL-2

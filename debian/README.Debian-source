@@ -1,0 +1,7 @@
+afni-data Debian source package
+-------------------------------
+
+This data package has been created by repackaging the AFNI binary distribution
+tarball containing all data files that are not part of the source distribution.
+
+ -- Michael Hanke <michael.hanke@gmail.com>, Thu, 21 Oct 2010 13:57:14 -0400
