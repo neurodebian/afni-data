@@ -2,6 +2,8 @@ afni-data (0.20121128-1) data; urgency=low
 
   * Fresh snapshot of atlases shipped upstream.
   * get-orig-upstream: remove executable bit from data files
+  * afni-atlases.install: remove {} bashism, install uncompressed BRIKs
+    as well
 
  -- Yaroslav Halchenko <debian@onerussian.com>  Thu, 29 Nov 2012 10:08:03 -0500
 
