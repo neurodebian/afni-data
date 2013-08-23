@@ -1,2 +1,1 @@
-data/*.HEAD usr/share/afni/atlases/
-data/*.BRIK* usr/share/afni/atlases/
+data/* usr/share/afni/atlases/
