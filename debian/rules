@@ -33,7 +33,10 @@ get-orig-source: $(upstreamtarball)
 	# put all data files into a subdir
 	mkdir -p data
 	# extract the pieces we are interested in (data and license information)
-	tar -C data --wildcards --strip 1 -xvzf ../$(upstreamtarball) '*.HEAD*' '*.BRIK*' '*README.copyright'
+	tar -C data --wildcards --strip 1 -xvzf ../$(upstreamtarball) \
+		'*.HEAD*' '*.BRIK*' '*.nii*' '*README.copyright' '*Atlases.niml'
+	rm -rf data/meica.libs # carries sample nii.gz we aren't interested in ATM
+	debian/rules maint-update-md5sum
 	chmod a-x data/*.HEAD* data/*.BRIK*
 	# check integrity
 	md5sum -c debian/origdata.md5sum

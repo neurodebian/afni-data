@@ -1,3 +1,16 @@
+afni-data (0.20130822-1) data; urgency=low
+
+  * Fresh snapshot of atlases shipped upstream:
+    - includes infant-* UNC atlases from Feng Shi et al.
+  * debian/rules
+    - get-orig-source now calls maint-update-md5sum to possibly update
+      md5sums happen those changed
+  * debian/upstream
+    - initiated with Reference for infant- atlas and injected Files field
+      to point solely to this atlas references
+
+ -- Yaroslav Halchenko <debian@onerussian.com>  Thu, 22 Aug 2013 21:09:00 -0400
+
 afni-data (0.20121128-1) data; urgency=low
 
   * Fresh snapshot of atlases shipped upstream.
