@@ -1,3 +1,12 @@
+afni-data (0.20140908-1) data; urgency=medium
+
+  * Fresh snapshot of data shipped upstream:
+    - updated infant-2yr-withCerebellum.nii.gz, TT_desai_dd_mpm+tlrc.*,
+      TT_desai_dk_mpm+tlrc
+    - added MNI152_1mm_uni+tlrc*
+
+ -- Yaroslav Halchenko <debian@onerussian.com>  Mon, 08 Sep 2014 12:22:40 -0400
+
 afni-data (0.20130822-1) data; urgency=low
 
   * Fresh snapshot of atlases shipped upstream:
