@@ -1,3 +1,12 @@
+afni-data (0.20160822-1) data; urgency=medium
+
+  * Fresh snapshot of data shipped upstream
+    - no previously shipped data was changed
+    - added HaskinsPeds* atlas and template
+    - added MNI152_T1_2009c*, MNI_VmPFC*, TT_152_2009c*
+
+ -- Yaroslav Halchenko <debian@onerussian.com>  Mon, 22 Aug 2016 11:13:58 -0400
+
 afni-data (0.20140908-1) data; urgency=medium
 
   * Fresh snapshot of data shipped upstream:

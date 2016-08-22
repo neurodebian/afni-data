@@ -1,3 +1,11 @@
+3598d6431bf6ebde78caa3df7daa5236  data/HaskinsPeds_aff_atlas1.0+tlrc.BRIK.gz
+2d0d7b3cb6c6b52890fbd112d1d78931  data/HaskinsPeds_aff_atlas1.0+tlrc.HEAD
+8810297bd2522386d211d6006c1c2af0  data/HaskinsPeds_aff_template1.0+tlrc.BRIK.gz
+e69e163e065f04c64b00e227b3ef0684  data/HaskinsPeds_aff_template1.0+tlrc.HEAD
+71e0cc8f762590b13303dad878f98008  data/HaskinsPeds_NL_atlas1.0+tlrc.BRIK.gz
+44aa9c9897064a274c045ee9db3c1729  data/HaskinsPeds_NL_atlas1.0+tlrc.HEAD
+3c31735dfe90dc45fe79535a662963c6  data/HaskinsPeds_NL_template1.0+tlrc.BRIK.gz
+eddfd941c28223b4b5d3230babb31973  data/HaskinsPeds_NL_template1.0+tlrc.HEAD
 ac43acbca8e3872190e23b34c1d99728  data/infant-1yr-aal.nii.gz
 e8c5694f7752b864efae31463fff4c35  data/infant-1yr-avgseg.nii.gz
 6a9ae27ad4d9d63bb9c4aaff5396359d  data/infant-1yr.nii.gz
@@ -53,6 +61,8 @@ b38f20f67935ee1d6d30333903ca9239  data/mgh_wh_template+tlrc.BRIK
 38b854afe414b5d5e8c066787137750f  data/mgh_wh_template+tlrc.HEAD
 903f4d81c3df96338d8d0641003798e9  data/MNI152_1mm_uni+tlrc.BRIK.gz
 e3715287d17e05631eeaba0188563917  data/MNI152_1mm_uni+tlrc.HEAD
+715171eca3432246850d148b2ea6c644  data/MNI152_T1_2009c+tlrc.BRIK.gz
+9c87de2daef239b3226670f832a0100b  data/MNI152_T1_2009c+tlrc.HEAD
 de0adf5cd2a3a6e0c03fc0a749522bb0  data/MNIa_caez_colin27_T1_18+tlrc.BRIK.gz
 cae1b7e444eb7c0e1c699fff31c4faae  data/MNIa_caez_colin27_T1_18+tlrc.HEAD
 6b948eaf94c9581cb918e51f4d2af48a  data/MNIa_caez_gw_18+tlrc.BRIK.gz
@@ -75,9 +85,13 @@ ca1b0aaf20ecc90651ed57cb74445627  data/MNI_avg152T2+tlrc.HEAD
 8e3d54190af3c53a5b498074c192068d  data/MNI_caez_N27+tlrc.HEAD
 553eb92d1bf1dfcd9bccb09b12d95e46  data/MNI_EPI+tlrc.BRIK.gz
 e81cf8825b4977934c9bdc6dbe0ee2db  data/MNI_EPI+tlrc.HEAD
+81b42599e4ce7a8d1c0d2e7753121f3b  data/MNI_VmPFC+tlrc.BRIK.gz
+31da360891781236910991a2f5551004  data/MNI_VmPFC+tlrc.HEAD
 c0efb45ea4a99d031d5d6952dd299c1b  data/paxinos_elsevier_tissue_lores+tlrc.BRIK.gz
 b5c695b64307413f62c4e1a41bcf5c77  data/paxinos_elsevier_tissue_lores+tlrc.HEAD
 24393d29049825578995449f6c3b0388  data/README.copyright
+90a9672db0dea9cb53308112d706c5bd  data/TT_152_2009c+tlrc.BRIK.gz
+059683c5e8124981922cd08ebd829098  data/TT_152_2009c+tlrc.HEAD
 a240f246e2d7f343c3c24954ac789cc3  data/TTatlas+tlrc.BRIK.gz
 209f3e7f92dab3d69b2f32ebf395ee8f  data/TTatlas+tlrc.HEAD
 238434d943bdeb95b37916392319dc58  data/TT_avg152T1+tlrc.BRIK.gz
