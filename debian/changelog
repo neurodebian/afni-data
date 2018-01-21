@@ -1,3 +1,10 @@
+afni-data (0.20180120-1) data; urgency=medium
+
+  * Fresh snapshot of data shipped upstream
+    - lots has changed
+
+ -- Yaroslav Halchenko <debian@onerussian.com>  Sat, 20 Jan 2018 23:56:02 -0500
+
 afni-data (0.20160822-1) data; urgency=medium
 
   * Fresh snapshot of data shipped upstream
